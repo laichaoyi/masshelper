@@ -11,7 +11,7 @@ Intercept downloads and show button on images/video sites, including HDVietnam,f
 
 # A HTTP download manager
 
-English | (./README-CN.md)
+
 
 Mass Helper is a HTTP(s) download manager that supports downloading HTTP from video sites: facebook.com, youtube.com, tiktok.com, instagram.com,dailymotion.com, vimeo,... image sites: flickr.com,500px,behance.net,... file sites: fshare.vn,dropbox.com, google drive, onedrive, 4share, hdvn, mediafire,...
 
@@ -21,7 +21,7 @@ Mass helper has a clean and easy to use interface. I hope you will like it 👻.
 
 ## 💽 Installation 
 
-Download Mac OS or Windows version from [GitHub Releases](https://heavyrain.vip) and install it.
+Download Mac OS or Windows version from [Mass Helper App](https://heavyrain.vip) and install it.
 
 
 
@@ -39,4 +39,4 @@ Download Mac OS or Windows version from [GitHub Releases](https://heavyrain.vip)
 
 ## 📜 License
 
-[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2018-present Dr_rOot
+[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2025 Andy N Le
