@@ -1,5 +1,5 @@
 # masshelper
-Intercept downloads and show button on images/video sites, including HDVietnam,facebook, youtube ,tiktok, instagram ,flickr ,fshare ,4share , mediafire , dropbox ,onedrive ,google drive,...
+Intercept downloads and show button on images/video sites, including HDVietnam,facebook, youtube ,tiktok, instagram ,flickr ,fshare ,4share , mediafire , dropbox ,onedrive ,google drive, huggingface.co , liblib.art, shakker.ai, civitai.com, ...
 
 
 
