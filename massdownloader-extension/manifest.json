@@ -1,0 +1,69 @@
+{
+  "manifest_version": 3,
+  "name": "Mass Helper by Andy",
+  "version": "1.1",
+  "description": "Intercept downloads and show button on images/video sites, including HDVietnam.",
+  "permissions": [
+    
+    "downloads",
+  "cookies",
+  "storage",
+  "downloads.shelf",
+  "activeTab",
+  "scripting"
+  ],
+  "host_permissions": [
+  "<all_urls>",
+  "http://localhost:8123/*",
+  "https://facebook.com/*",
+  "https://www.hdvietnam.xyz/*",
+  "https://www.dropbox.com/*",
+  "https://dropbox.com/*"
+],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["image-content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    },
+    {
+      "matches": ["*://*.sharepoint.com/*"],
+      "js": ["sharepoint.js"],
+      "run_at": "document_start"
+    },
+    
+    {
+      "matches": ["<all_urls>"],
+      "js": ["getAuth.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://www.dropbox.com/scl/fo/*"],
+      "js": ["dropbox.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://stock.adobe.com/*"],
+      "js": ["stockadobe.js"],
+      "run_at": "document_idle"
+    }
+    
+    
+  ],
+  "action": {
+    "default_title": "Mass Downloader"
+  },
+  "icons": {
+    "128": "massdownloader.png"
+  }
+}
