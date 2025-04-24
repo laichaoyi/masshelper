@@ -21,7 +21,7 @@ Mass helper has a clean and easy to use interface. I hope you will like it 👻.
 
 ## 💽 Installation 
 
-Download Mac OS or Windows version from [Mass Helper App]([https://heavyrain.vip)](https://github.com/laichaoyi/masshelper/releases/tag/1.1) and install it.
+Download Mac OS or Windows version from [Mass Helper App]([[https://heavyrain.vip](https://github.com/laichaoyi/masshelper/releases/tag/1.1))](Mass Helper releases) and install it.
 
 
 
